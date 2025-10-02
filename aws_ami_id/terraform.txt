@@ -1,0 +1,5 @@
+commands:
+    terraform fmt --> formating code
+    terraform validate --> validation of the code
+    terraform plan -->
+    terraform apply --> execute terraform code 

@@ -39,6 +39,8 @@ crash.log
 *.key
 *.env
 *.tfvars
+shah-key
+shah-key.pub
 
 # System files
 .DS_Store

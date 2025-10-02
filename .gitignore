@@ -40,6 +40,8 @@ crash.log
 *.env
 *.pub
 *.tfvars
+shah-key
+shah-key.pub
 
 shah-key
 

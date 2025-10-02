@@ -27,7 +27,50 @@ https://apt.releases.hashicorp.com $(lsb_release -cs) main" \
 
 sudo apt-get update && sudo apt-get install terraform
 
+```
 
 ### Verify Installation
 ```bash
 terraform --version
+```
+
+## Repository Structure
+```graphql
+.
+├── provider.tf          # Configure AWS provider
+├── instance.tf          # EC2 instance definition
+├── securitygroup.tf     # Security group configuration
+├── keyPair.tf           # SSH key pair resource
+├── output.tf            # Terraform output values
+├── variables.tf         # Input variables (optional)
+└── README.md
+```
+
+## Usage
+
+### Initialize Terraform
+```bash
+terraform init
+```
+
+### Validate configuration
+```bash
+terraform validate
+```
+
+### Preview the plan
+```bash
+terraform plan
+```
+
+### Apply the changes
+```bash
+terraform apply
+```
+
+### Destroy infrastructure
+```bash
+terraform destroy
+```
+
+
